@@ -32,8 +32,7 @@ $ conda install cookiecutter
 The directory structure of your new project looks like this: 
 
 ```
-├── LICENSE
-├── README.md          <- The top-level README for developers using this project.
+
 ├── data
 │   ├── external       <- Data from third party sources.
 │   ├── interim        <- Intermediate data that has been transformed.
@@ -52,6 +51,9 @@ The directory structure of your new project looks like this:
 │
 ├── src                <- Source code for use in this project.
 │
+│
+├── LICENSE
+├── README.md          <- The top-level README for developers using this project.
 ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
                           generated with `pip freeze > requirements.txt`
 
