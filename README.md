@@ -23,7 +23,7 @@ $ conda install cookiecutter
 ### To start a new project, run:
 ------------
 
-    cookiecutter https://github.com/Quantyca/cookiecutter-quantyca-ml-base
+    cookiecutter https://github.com/Quantyca/refarch-ateam-cookiecutter-base
 
 
 ### The resulting directory structure
@@ -54,8 +54,8 @@ The directory structure of your new project looks like this:
 │
 ├── LICENSE
 ├── README.md          <- The top-level README for developers using this project.
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-                          generated with `pip freeze > requirements.txt`
+├── environment.yml   <- The requirements file for reproducing the analysis environment, e.g.
+                          generated with `conda env export > environment.yml`. Include the following libs: jupyter numpy=1.15.2 pandas=0.23.4 matplotlib=2.2.3 seaborn=0.9.0 scikit-learn=0.20.0, xgboost=0.80, pytorch, fastai
 
 
 ```
